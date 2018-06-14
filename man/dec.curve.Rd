@@ -22,6 +22,7 @@ This function computes the order of points on a open 3D curve and finds intermed
 \examples{
 ## Create and plot a 3D curve
 require(compositions)
+require(rgl)
 curve_3D<-cbind(1:10,seq(1,5,length=10),rnorm(10,sd = 0.2))
 plot3D(curve_3D,bbox=FALSE)
 rgl.close()

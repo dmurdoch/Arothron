@@ -1,4 +1,4 @@
-e422866a812eebde4d524baf25fbf4e8 *DESCRIPTION
+46127e1b47b52efd546b147f5170cf18 *DESCRIPTION
 b812d595ad94af8879e5012ceb10e3a2 *NAMESPACE
 0426fde1e1d0e2605b871860429739e1 *R/Arothron.R
 e2f5ca33ff7c59b02b2f6b2e1289c5cd *R/DM_base_sur.R
@@ -8,9 +8,9 @@ e2f5ca33ff7c59b02b2f6b2e1289c5cd *R/DM_base_sur.R
 257755c5fe5b6a2d6d4ee3267e7476c7 *R/SCP1.mesh.R
 6f98cf01112449e614352e7587eb7aa5 *R/aro.clo.points.R
 1207360a777aa92d25fb150672f5ecc8 *R/bary.mesh.R
-3209a98af130d65ecc3de2f5507e9e73 *R/compare_check.set.R
-49b59579eed8588929a1299147202b1d *R/dec.curve.R
-80627b147021b56895535500ce8ae29d *R/dta.R
+178e0432aef2c2ec695cd1e37bea03f9 *R/compare_check.set.R
+16034f304139119b9015be83d7fdf2df *R/dec.curve.R
+32c04c09f0b7fd8181f0f6a3d2cee22d *R/dta.R
 2f92c45428ea03a9e77e66fe23b53f5f *R/endo_set.R
 5d3f9cfe9a5a8823f6f7c14f3aefe75f *R/export_amira.R
 f79f61d7052fc64874d066e0dfc69219 *R/export_amira.path.R
@@ -22,7 +22,7 @@ d5aa012323bfda76a5cd15f535bb9751 *R/ext.int.mesh.R
 3948fbed95d41b9d8fa5d881533e3593 *R/landmark_frm2amira.R
 4c1e531ccb96c18533e3401d0c0a8f07 *R/malleus_bone.R
 3e9186279f45d490ad326ab0baba7cf1 *R/noise.mesh.R
-e8ade2cffd5c9bd179da116a4b089c33 *R/out.inn.mesh.R
+e188ee7cb6e6791e5594e5d5dd25a572 *R/out.inn.mesh.R
 abb53c0ac097ad85567020d709b98ecd *R/patches_frm2amira.R
 62aae9dda1a123bcf09ffc4b7da609da *R/pov_selecter.R
 cab3e36c6acb2865e72db29ce1128b18 *R/read.amira.dir.R
@@ -39,11 +39,11 @@ f63e4f4eaf3849408c3fdb5084c348f5 *R/sinus_set.R
 f86707a77d5be1db6c2fb64f79fb9ffa *data/DM_face_sur.rda
 3926ea54ca17c55053ad3ff7cbcecafd *data/DM_set.rda
 3cf31de8d6885424818bee2239ecd077 *data/RMs_sets.rda
-8d0770c07b7fa4c5b72bced485323e76 *data/SCP1.mesh.rda
+b5745850fec1fcb281fb6621ade48e24 *data/SCP1.mesh.rda
 ee5bc4e701c9a8d689fcfc5de5d73bc1 *data/datalist
 366948a7224bfc77a7b03247655a95e8 *data/endo_set.rda
 f75350a6c870e4b16e9f52770da1813a *data/human_skull.rda
-29ecea543bb4d39cd8e2305ca8836bde *data/krd1_tooth.rda
+34829b84f450dddebf07e6ab7e4e9ecc *data/krd1_tooth.rda
 df77fcb20fe0708bd72c56ac1f0a7112 *data/malleus_bone.rda
 3d3fd6d122d0ac54b695e0bef61e4128 *data/sinus_set.rda
 b3ed65434bdb1188ff4d82d8f9d84cb3 *data/yoda_set.rda
@@ -57,7 +57,7 @@ d0479ea576aeb8f86e1d248985e84b48 *data/yoda_sur.rda
 9c5ec19c45d06248f81d38d9e455c748 *man/aro.clo.points.Rd
 344c1e67ce965b61c6f887d338ce806a *man/bary.mesh.Rd
 b5ffb6a45fc377ea940c9aced3f782c3 *man/compare_check.set.Rd
-4ca7caf6b14c6e9343421d5357c76963 *man/dec.curve.Rd
+6c93245687ddc9386c682ecf80b4cff8 *man/dec.curve.Rd
 71e9a7690deeda3e655113d142df9e51 *man/dta.Rd
 279642d2ccc05073c6fd7597c4608f1f *man/endo_set.Rd
 b45a1794ccd6c935fdec57b51554550e *man/export_amira.Rd
@@ -70,7 +70,7 @@ e6aece73b30d575205d85348d1df85e3 *man/krd1_tooth.Rd
 eecc0729e618f43e121467442e4167a2 *man/landmark_frm2amira.Rd
 1187b41ece7febcb6608db2a1940ff03 *man/malleus_bone.Rd
 8f9844e73bfeda0a2a5a31e7cbaaaef3 *man/noise.mesh.Rd
-c2e6857a32bce45b134be9e6e5404a8d *man/out.inn.mesh.Rd
+06f74047837e4582c1be3ebf39e026f3 *man/out.inn.mesh.Rd
 cd7e0403d39e2f8398d6146bc60eba21 *man/patches_frm2amira.Rd
 14912a2a227baaaac7698ad82c259c2e *man/pov_selecter.Rd
 2e67c3b329c235656c9ac716ff234344 *man/read.amira.dir.Rd

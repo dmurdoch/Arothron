@@ -45,14 +45,12 @@ inv_mesh<-ca_lse_malleus$invisible
 #load a mesh
 data(human_skull)
 data(endo_set)
-ast3d_endocast<-ext.int.mesh(mesh=human_skull, views=50, param1=1.0, default=FALSE, 
+ast3d_endocast<-ext.int.mesh(mesh=human_skull, views=50, param1=0.6, default=FALSE, 
 import_pov = TRUE,expand=1, matrix_pov =endo_set, scale.factor=1,num.cores = NULL)
 vis_inv_endo<-out.inn.mesh(ast3d_endocast,human_skull,plot=TRUE)
 vis_mesh<-vcgIsolated(vis_inv_endo$visible)
 open3d()
 shade3d(vis_mesh,col=3)
-open3d()
-shade3d(vis_inv_endo$invisible, col=2)
 }
 }
 \author{
