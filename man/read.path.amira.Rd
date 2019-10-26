@@ -16,5 +16,5 @@ data numeric: a kxd matrix with xyz coordinates
 This function extracts and orders the coordinate matrix from a surface path file from Amira
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

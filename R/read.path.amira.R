@@ -3,7 +3,7 @@
 #' This function extracts and orders the coordinate matrix from a surface path file from Amira 
 #' @param path.name character: path of surface path .ascii extension file
 #' @return data numeric: a kxd matrix with xyz coordinates 
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 read.path.amira<-function(path.name){
 skip_1 <- which(readLines(path.name,  n = 9999999) == "@1")

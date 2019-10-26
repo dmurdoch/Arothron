@@ -5,7 +5,7 @@
 #' @param noise sd deviation to define vertex noise
 #' @param seed seed for random number generator
 #' @return mesh_n a 3D model of class "mesh3d" with noise
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @examples
 #' #load mesh
 #' library(compositions)

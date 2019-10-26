@@ -11,6 +11,6 @@ data(SM_set)
 Landmark configuration associated to the starting model
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }
 \keyword{Arothron}

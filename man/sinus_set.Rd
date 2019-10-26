@@ -11,6 +11,6 @@ data(sinus_set)
 POVs sampled inside the maxillary sinus cavity
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }
 \keyword{Arothron}

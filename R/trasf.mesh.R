@@ -4,7 +4,7 @@
 #' @param mesh a 3D mesh of class "mesh3d"
 #' @param barycenter numeric: coordinates of the center
 #' @return mesh a 3D mesh of class "mesh3d"
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 
 trasf.mesh=function(mesh,barycenter){

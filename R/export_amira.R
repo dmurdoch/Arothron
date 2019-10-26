@@ -3,7 +3,7 @@
 #' This function exports a list of 3D landmark set in separate files (format landmarkAscii)
 #' @param lista list containing 3D landmark sets
 #' @param path character: path of the folder where saving the Amira landmark sets
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @examples
 #' x<-c(1:20)
 #' y<-seq(1,3,length=20)

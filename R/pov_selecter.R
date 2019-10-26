@@ -6,7 +6,7 @@
 #' @param start.points numeric: number of center to be found
 #' @param method character: select "a" or "c" for respectively AST-3D and CA-LSE method
 #' @return selection numeric: positioning vector of the selected points of the grid
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 
 pov_selecter<-function (mesh, grid,start.points=250,method="ast3d"){

@@ -30,5 +30,5 @@ rgl.close()
 dec_curve_3D<-dec.curve(curve_3D, 2, plot = TRUE)
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

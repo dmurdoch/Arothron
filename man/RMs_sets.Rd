@@ -11,6 +11,6 @@ data(RMs_sets)
 Array containing the landmark coordinates of the reference sample for Digital Alignment Tool example
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }
 \keyword{Arothron}

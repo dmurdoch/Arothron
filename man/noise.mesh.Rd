@@ -33,5 +33,5 @@ shade3d(mesh,col=3)
 shade3d(noised,col=2,add=TRUE)
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

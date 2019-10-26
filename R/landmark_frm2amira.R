@@ -3,7 +3,7 @@
 #' This function converts the .frm files, from Evan Toolbox, stored in a folder into the format landmarkAscii
 #' @param path_folder_frm character: path of the folder where the .frm files are stored
 #' @param path_amira_folder character: path folder to store the landmarkAscii configurations
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 landmark_frm2amira<-function(path_folder_frm,path_amira_folder){
 dir.create(path_amira_folder)

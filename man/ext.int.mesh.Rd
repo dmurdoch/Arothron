@@ -6,7 +6,8 @@
 \usage{
 ext.int.mesh(mesh, views = 20, dist.sphere = 3, param1 = 2.5,
   param2 = 10, default = TRUE, import_pov, matrix_pov, expand = 1,
-  scale.factor, method = "ast3d", start.points = 250, num.cores = NULL)
+  scale.factor, method = "ast3d", start.points = 250,
+  num.cores = NULL)
 }
 \arguments{
 \item{mesh}{object of class mesh3d}
@@ -21,13 +22,13 @@ ext.int.mesh(mesh, views = 20, dist.sphere = 3, param1 = 2.5,
 
 \item{default}{logical: if TRUE the points of views are defined automatically, if FALSE define the matrix_pov}
 
-\item{import_pov}{logical: if FALSE an interactive 3D plot for the definition of the points of view is returned}
+\item{import_pov}{logical: if NULL an interactive 3D plot for the definition of the points of view is returned}
 
 \item{matrix_pov}{matrix: external set of points of view}
 
 \item{expand}{numeric: scale factor for the grid for the interactive 3D plot}
 
-\item{scale.factor}{numeric: scale factor for}
+\item{scale.factor}{numeric: scale factor for sphere inscribed into the mesh}
 
 \item{method}{character: select "a" or "c"}
 
@@ -42,5 +43,5 @@ position numeric: a vector with vertex number nearest the landmark set
 This function finds the vertices visible from a set of points of view
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

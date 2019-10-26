@@ -4,7 +4,7 @@
 #' @param scans an ext.int.mesh 
 #' @param mesh matrix mesh vertex (the same of the ext.int.mesh object)
 #' @param plot logical: if TRUE the wireframe of the mesh with the visible vertices is plotted
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @examples
 #' \dontrun{
 #' #CA-LSE tool on Neanderthal tooth
@@ -34,7 +34,7 @@
 #' #load a mesh
 #' data(human_skull)
 #' data(endo_set)
-#' ast3d_endocast<-ext.int.mesh(mesh=human_skull, views=50, param1=1.0, default=FALSE, 
+#' ast3d_endocast<-ext.int.mesh(mesh=human_skull, views=50, param1=0.6, default=FALSE, 
 #' import_pov = TRUE,expand=1, matrix_pov =endo_set, scale.factor=1,num.cores = NULL)
 #' vis_inv_endo<-out.inn.mesh(ast3d_endocast,human_skull,plot=TRUE)
 #' vis_mesh<-vcgIsolated(vis_inv_endo$visible)

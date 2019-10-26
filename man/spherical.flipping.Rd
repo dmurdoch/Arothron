@@ -19,5 +19,5 @@ spherical.flipping(C, mesh, param1, param2)
 Internal spherical flippping function
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

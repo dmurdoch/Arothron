@@ -5,7 +5,7 @@
 #' @param mesh object of class mesh3d 
 #' @param param1 numeric: first parameter for spherical flipping (usually ranged from 0.1 to 3, try!)
 #' @param param2 numeric second paramter for spherical flipping (don't change it!)
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 
 

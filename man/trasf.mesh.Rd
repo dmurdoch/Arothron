@@ -18,5 +18,5 @@ mesh a 3D mesh of class "mesh3d"
 This function centers a mesh on the barycenter coordinates
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

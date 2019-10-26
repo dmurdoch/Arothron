@@ -4,8 +4,8 @@
 \alias{export_amira.path}
 \title{export_amira.path}
 \usage{
-export_amira.path(vertices, filename, Lines = c(1:(dim(vertices)[1] - 1) - 1,
-  -1), path)
+export_amira.path(vertices, filename, Lines = c(1:(dim(vertices)[1] - 1)
+  - 1, -1), path)
 }
 \arguments{
 \item{vertices}{numeric: a kx3 matrix}
@@ -20,7 +20,6 @@ export_amira.path(vertices, filename, Lines = c(1:(dim(vertices)[1] - 1) - 1,
 Convert and save a 3D matrix into a AmiraMesh ASCII Lineset (.am) object
 }
 \examples{
-library(Arothron)
 x<-c(1:20)
 y<-seq(1,3,length=20)
 z<-rnorm(20,0.01)
@@ -28,5 +27,5 @@ vertices<-cbind(x,y,z)
 export_amira.path(vertices=vertices,filename="example_line",path=tempdir())
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

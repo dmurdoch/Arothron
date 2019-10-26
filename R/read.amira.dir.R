@@ -4,7 +4,7 @@
 #' @param path.dir character: path of the folder
 #' @param nland numeric: number of landmark sampled in Amira
 #' @return array.set numeric: a kx3xn array with landmark coordinates
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 
 read.amira.dir<-function(path.dir,nland){

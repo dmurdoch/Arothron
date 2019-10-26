@@ -11,6 +11,6 @@ data(human_skull)
 3D mesh of a human skull
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }
 \keyword{Arothron}

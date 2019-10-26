@@ -3,7 +3,7 @@
 #' This function calculates the barycenter of a matrix or a 3D mesh 
 #' @param mesh matrix mesh vertex
 #' @return barycenter numeric: x,y,z coordinates of the barycenter of the mesh
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @examples
 #' #load an example: mesh, and L set
 #' data(SCP1.mesh)

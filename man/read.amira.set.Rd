@@ -18,5 +18,5 @@ array.set numeric: a kx3x1 array with landmark coordinates
 This function converts a landmarkAscii file set in a kx3x1 array
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

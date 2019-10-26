@@ -18,5 +18,5 @@ array.set numeric: a kx3xn array with landmark coordinates
 This function reads and stores in an array the coordinated allocated in a folder in separate files (format landmarkAscii)
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

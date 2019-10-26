@@ -15,5 +15,5 @@ landmark_frm2amira(path_folder_frm, path_amira_folder)
 This function converts the .frm files, from Evan Toolbox, stored in a folder into the format landmarkAscii
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

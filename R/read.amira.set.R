@@ -4,7 +4,7 @@
 #' @param name.file character: path of a landmarkAscii file
 #' @param nland numeric: number of landmark sampled in Amira, if is set on "auto" it will be automatically recognized
 #' @return array.set numeric: a kx3x1 array with landmark coordinates 
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 #' 
 

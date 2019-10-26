@@ -4,7 +4,8 @@
 \alias{compare_check.set}
 \title{compare_check.set}
 \usage{
-compare_check.set(RM_set_1, RM_set_2, DM_set_1, DM_set_2, DM_mesh_1, DM_mesh_2)
+compare_check.set(RM_set_1, RM_set_2, DM_set_1, DM_set_2, DM_mesh_1,
+  DM_mesh_2)
 }
 \arguments{
 \item{RM_set_1}{matrix: 3D landmark set of the first module acquired on the reference model}
@@ -52,5 +53,5 @@ single_l_2 numeric: euclidean distance between the landmark configuration of the
 This function applyes the Digital Alignment Tool (DTA) on a disarticulated model using a reference landmark configuration
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

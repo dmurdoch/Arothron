@@ -4,7 +4,7 @@
 #' @param mesh object of class mesh3d 
 #' @param expand numeric: scale factor for the grid for the interactive 3D plot
 #' @return matrice matrix: matrix with the x,y,z coordinates of the points of view
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 grid_pov<-function (mesh, expand=1){
   bounding <- as.matrix(meshcube(scalemesh(mesh,size =expand,center = "mean" )))

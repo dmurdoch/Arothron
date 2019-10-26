@@ -7,15 +7,15 @@
 #' @param param1 numeric: first parameter for spherical flipping (usually ranged from 0.5 to 5, try!)
 #' @param param2 numeric second paramter for spherical flipping (don't change it!)
 #' @param default logical: if TRUE the points of views are defined automatically, if FALSE define the matrix_pov 
-#' @param import_pov logical: if FALSE an interactive 3D plot for the definition of the points of view is returned
+#' @param import_pov logical: if NULL an interactive 3D plot for the definition of the points of view is returned
 #' @param matrix_pov matrix: external set of points of view
 #' @param expand numeric: scale factor for the grid for the interactive 3D plot
-#' @param scale.factor numeric: scale factor for 
+#' @param scale.factor numeric: scale factor for sphere inscribed into the mesh 
 #' @param method character: select "a" or "c" 
 #' @param start.points numeric: number of POVs available
 #' @param num.cores numeric: number of cores
 #' @return position numeric: a vector with vertex number nearest the landmark set
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 ext.int.mesh<-function(mesh,views=20,dist.sphere=3,param1=2.5,param2=10,default=TRUE,import_pov,matrix_pov,expand=1,scale.factor,
                       method="ast3d",start.points=250,num.cores=NULL)

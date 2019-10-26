@@ -5,7 +5,7 @@
 #' @param reference numeric: a kxm matrix (coordinates)
 #' @return position numeric: a vector of the row indices 
 #' @return distances numeric: a vector of the coordinates distances 
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @examples
 #' #load an example: mesh, and L set
 #' data(yoda_sur)

@@ -15,5 +15,5 @@ ext.mesh.rai(scans, mesh)
 This function returns a 3D mesh with colours based on the vertices visibile from each point of view
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

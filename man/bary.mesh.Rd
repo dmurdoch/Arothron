@@ -22,5 +22,5 @@ sur<-SCP1.mesh
 bary<-bary.mesh(mesh=sur)
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

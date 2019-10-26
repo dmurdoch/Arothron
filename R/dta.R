@@ -20,7 +20,7 @@
 #' @return tot_proc numeric vector: procrustes distances between aligned and reference models (all DTAs)
 #' @return tot_eucl numeric vector: euclidean distances between aligned and reference models (all DTAs)
 #' @return setarray 3D array: landmark configurations of the disarticulated model aligned on each item of the reference sample 
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @examples
 #' ## Load and plot the disarticulated model of the Homo sapiens case study
 #' library(compositions)
@@ -87,12 +87,11 @@ dta<-function (RM_sample, mod_1, mod_2, pairs_1, pairs_2, DM_mesh_1,
     i = which.min(eu_procr)
   }
   RM_set_i <- RM_sample[, , i]
-  if (is.null(pairs_1) == FALSE & is.null(pairs_2) == FALSE) {
-    pairedLM <- rbind(pairs_1, pairs_2)
-    symm.set.i <- symmetrize(RM_set_i, pairedLM = pairedLM)}else{
-      
-      symm.set.i<-RM_set_i
-    }
+  pairedLM <- rbind(pairs_1, pairs_2)
+  if (is.null(pairs_1) == FALSE & is.null(pairs_2) == FALSE){
+    symm.set.i <- symmetrize(RM_set_i, pairedLM = pairedLM)
+  }else{symm.set.i=RM_set_i}
+  
   RM_set_1 <- symm.set.i[mod_1, ]
   RM_set_2 <- symm.set.i[mod_2, ]
   AM_project <- compare_check.set(RM_set_1 = RM_set_1, RM_set_2 = RM_set_2, 

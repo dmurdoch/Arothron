@@ -18,5 +18,5 @@ matrice matrix: matrix with the x,y,z coordinates of the points of view
 This function creates a grid for an interactive way to define the set of the points of view
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

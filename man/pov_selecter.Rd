@@ -22,5 +22,5 @@ selection numeric: positioning vector of the selected points of the grid
 Internal function to define the points of view
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

@@ -5,9 +5,8 @@
 #' @param filename character: name of the requested output
 #' @param Lines numeric: sequence of the vertices that defines the line
 #' @param path character: folder path 
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @examples
-#' library(Arothron)
 #' x<-c(1:20)
 #' y<-seq(1,3,length=20)
 #' z<-rnorm(20,0.01)

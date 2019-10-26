@@ -28,5 +28,5 @@ set<-yoda_set
 ver_pos<-aro.clo.points(target=sur,reference=set) 
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

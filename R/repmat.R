@@ -5,7 +5,7 @@
 #' @param m numeric: number of times to repeat the X matrix in row and column dimension
 #' @param n numeric: repetition factor for each dimesion
 #' @return matrice: repeated matrix
-#' @author Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+#' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 #' @export
 repmat <- function(X,m,n){
 if(is.vector(X)==TRUE){

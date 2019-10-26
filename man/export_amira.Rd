@@ -23,5 +23,5 @@ set<-list(vertices)
 example<-export_amira(set,path=tempdir()) 
 }
 \author{
-Antonio Profico, Alessio Veneziano, Marina Melchionna, Pasquale Raia
+Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }
