@@ -11,6 +11,7 @@
 #' @import geometry
 #' @import graphics
 #' @import grDevices
+#' @import methods
 #' @import Morpho
 #' @import parallel
 #' @import rgl
@@ -22,9 +23,11 @@
 #' @importFrom alphashape3d ashape3d
 #' @importFrom parallel detectCores
 #' @importFrom grDevices dev.new rainbow
+#' @importFrom methods is
 #' @importFrom rgl as.mesh3d
 #' @importFrom stats dist kmeans rnorm
 #' @importFrom utils read.table write.table
 #' @importFrom vegan procrustes
 #' @importFrom compositions plot3D
+#' @importFrom Rvcg checkFaceOrientation
 NULL

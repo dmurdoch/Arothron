@@ -1,6 +1,6 @@
-fc5b1a2448ed0284fb2f2cb691fc84ec *DESCRIPTION
-fd574ed93c0063788ef80c1511941804 *NAMESPACE
-4e5ed17e243eb9eb61420202640c97c9 *R/Arothron.R
+c7b6ff14206a32ca10e72d3dba17b9cc *DESCRIPTION
+7a3d7fb5332a77a04922adafe9125605 *NAMESPACE
+c60ce5df6fa148be00d023f0fe616c4a *R/Arothron.R
 68f13182a6e3c997055cca97e0e5c18f *R/DM_base_sur.R
 d6c88137e67fb7d3c2626fb899fc62dd *R/DM_face_sur.R
 f69adc7d9d6b6e67a39ed64381a61ceb *R/DM_set.R
@@ -10,7 +10,7 @@ f69adc7d9d6b6e67a39ed64381a61ceb *R/DM_set.R
 3e45b20bda645a40a3a710bc8948c194 *R/RMs_sets.R
 f343c293de448ce0705bf3622ed3fc44 *R/SCP1.mesh.R
 4a6953b220a2a473b135990eba57ffae *R/SM_set.R
-e83d7d7f90c82d8da313ae51067f74a2 *R/aro.clo.points.R
+5e40a986a5316418851e53f1ff6a7952 *R/aro.clo.points.R
 e2eef7133e7a16e062c9a9a8efc3ac3e *R/arraytolist.R
 d1fe220ba7f3085e10e7a5cc704736f0 *R/bary.mesh.R
 0bfeb4d68749f3202466f110e3fcd0e6 *R/compare_check.set.R
@@ -42,7 +42,7 @@ fbf83ed673072b75f0884aed8b78a3bf *R/repmat.R
 19a81be10a43f50cb1c1fea591c7fda9 *R/trasf.mesh.R
 47f7538e7b0d2773aa12d15940da3d93 *R/twodvarshape.R
 118a0df098d3bee4c0b788dfaa8faaa8 *R/twodviews.R
-6af3314bb44b3a59810ecf94346cbf04 *R/volendo.R
+bf840c71febfe22b237ba2c96ee09d81 *R/volendo.R
 1c2874b9ab1a45c70817937113a5f432 *R/yoda_set.R
 d2096354cb3ae18cbbc677996d34ed80 *R/yoda_sur.R
 e6bd40ff2a06972f2685c2261ab8b00c *README.md
