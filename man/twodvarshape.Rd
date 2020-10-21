@@ -3,7 +3,7 @@
 \name{twodvarshape}
 \alias{twodvarshape}
 \title{twodvarshape 
-Calculates the shape variation associated to a value of PC scores associated to a specific 2D view}
+Calculates the shape variation associated to a value of PC scores associated to a specific combined landmark configuration or view}
 \usage{
 twodvarshape(twodviews_ob, scores, PC, view)
 }
@@ -14,16 +14,17 @@ twodvarshape(twodviews_ob, scores, PC, view)
 
 \item{PC}{PC chosen}
 
-\item{view}{numeric: 2D set to be used for shape variation visualization}
+\item{view}{numeric: which landmark configuration will be used to build the shape variation}
 }
 \value{
-mat matrix of 2D coordinates associated to the called shape variation
+mat matrix of coordinates associated to the called shape variation
 }
 \description{
 twodvarshape 
-Calculates the shape variation associated to a value of PC scores associated to a specific 2D view
+Calculates the shape variation associated to a value of PC scores associated to a specific combined landmark configuration or view
 }
 \examples{
+library(Arothron)
 #load the 2D primate dataset
 data("Lset2D_list")
 #combine the 2D datasets and PCA
@@ -34,6 +35,10 @@ plot(min_PC1,asp=1)
 #calculate the shape variation associated to the positive extreme value of PC1
 max_PC1<-twodvarshape(combin2D,max(combin2D$PCscores[,1]),1,5)
 plot(max_PC1,asp=1)
+}
+\references{
+Profico, A., Piras, P., Buzi, C., Del Bove, A., Melchionna, M., Senczuk, G., ... & Manzi, G. (2019). 
+Seeing the wood through the trees. Combining shape information from different landmark configurations. Hystrix, 157-165.
 }
 \author{
 Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano

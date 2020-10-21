@@ -4,10 +4,21 @@
 \alias{ext.int.mesh}
 \title{ext.int.mesh}
 \usage{
-ext.int.mesh(mesh, views = 20, dist.sphere = 3, param1 = 2.5,
-  param2 = 10, default = TRUE, import_pov, matrix_pov, expand = 1,
-  scale.factor, method = "ast3d", start.points = 250,
-  num.cores = NULL)
+ext.int.mesh(
+  mesh,
+  views = 20,
+  dist.sphere = 3,
+  param1 = 2.5,
+  param2 = 10,
+  default = TRUE,
+  import_pov,
+  matrix_pov,
+  expand = 1,
+  scale.factor,
+  method = "ast3d",
+  start.points = 250,
+  num.cores = NULL
+)
 }
 \arguments{
 \item{mesh}{object of class mesh3d}
@@ -41,6 +52,10 @@ position numeric: a vector with vertex number nearest the landmark set
 }
 \description{
 This function finds the vertices visible from a set of points of view
+}
+\references{
+Profico, A., Schlager, S., Valoriani, V., Buzi, C., Melchionna, M., Veneziano, A., ... & Manzi, G. (2018). 
+Reproducing the internal and external anatomy of fossil bones: Two new automatic digital tools. American Journal of Physical Anthropology, 166(4), 979-986.
 }
 \author{
 Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano

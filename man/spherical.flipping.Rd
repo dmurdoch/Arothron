@@ -18,6 +18,12 @@ spherical.flipping(C, mesh, param1, param2)
 \description{
 Internal spherical flippping function
 }
+\references{
+Profico, A., Schlager, S., Valoriani, V., Buzi, C., Melchionna, M., Veneziano, A., ... & Manzi, G. (2018). 
+Reproducing the internal and external anatomy of fossil bones: Two new automatic digital tools. American Journal of Physical Anthropology, 166(4), 979-986.#' @export
+
+Katz, S., Tal, A., & Basri, R. (2007). Direct visibility of point sets. In ACM SIGGRAPH 2007 papers (pp. 24-es).
+}
 \author{
 Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 }

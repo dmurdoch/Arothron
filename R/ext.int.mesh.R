@@ -16,7 +16,10 @@
 #' @param num.cores numeric: number of cores
 #' @return position numeric: a vector with vertex number nearest the landmark set
 #' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
+#' @references Profico, A., Schlager, S., Valoriani, V., Buzi, C., Melchionna, M., Veneziano, A., ... & Manzi, G. (2018). 
+#' Reproducing the internal and external anatomy of fossil bones: Two new automatic digital tools. American Journal of Physical Anthropology, 166(4), 979-986.
 #' @export
+
 ext.int.mesh<-function(mesh,views=20,dist.sphere=3,param1=2.5,param2=10,default=TRUE,import_pov,matrix_pov,expand=1,scale.factor,
                       method="ast3d",start.points=250,num.cores=NULL)
 {

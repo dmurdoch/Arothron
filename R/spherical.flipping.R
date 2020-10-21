@@ -6,6 +6,10 @@
 #' @param param1 numeric: first parameter for spherical flipping (usually ranged from 0.1 to 3, try!)
 #' @param param2 numeric second paramter for spherical flipping (don't change it!)
 #' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
+#' @references Profico, A., Schlager, S., Valoriani, V., Buzi, C., Melchionna, M., Veneziano, A., ... & Manzi, G. (2018). 
+#' Reproducing the internal and external anatomy of fossil bones: Two new automatic digital tools. American Journal of Physical Anthropology, 166(4), 979-986.#' @export
+#'
+#' Katz, S., Tal, A., & Basri, R. (2007). Direct visibility of point sets. In ACM SIGGRAPH 2007 papers (pp. 24-es).
 #' @export
 
 

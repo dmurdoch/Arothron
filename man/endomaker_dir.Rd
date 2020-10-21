@@ -4,13 +4,29 @@
 \alias{endomaker_dir}
 \title{endomaker_dir}
 \usage{
-endomaker_dir(dir_path, param1_endo = 1.5, npovs = 50, volume = TRUE,
-  alpha_vol = 50, nVoxels = 1e+05, decmesh = 20000, alpha_ext = 30,
-  ncells = 50000, npovs_calse = 50, param1_calse = 3,
-  param1_ast = 1.3, decendo = 20000, scalendo = 0.5,
-  alpha_end = 100, mpovdist = 10, plotall = FALSE,
-  colmesh = "orange", save = FALSE, outpath = tempdir(),
-  num.cores = NULL)
+endomaker_dir(
+  dir_path,
+  param1_endo = 1.5,
+  npovs = 50,
+  volume = TRUE,
+  alpha_vol = 50,
+  nVoxels = 1e+05,
+  decmesh = 20000,
+  alpha_ext = 30,
+  ncells = 50000,
+  npovs_calse = 50,
+  param1_calse = 3,
+  param1_ast = 1.3,
+  decendo = 20000,
+  scalendo = 0.5,
+  alpha_end = 100,
+  mpovdist = 10,
+  plotall = FALSE,
+  colmesh = "orange",
+  save = FALSE,
+  outpath = tempdir(),
+  num.cores = NULL
+)
 }
 \arguments{
 \item{dir_path}{character: path of the folder where the skull meshes are stored}
@@ -62,6 +78,10 @@ volumes numeric: volumes of the endocasts expressed in cc
 }
 \description{
 Build library of endocasts from skull 3D meshes
+}
+\references{
+Profico, A., Buzi, C., Melchionna, M., Veneziano, A., & Raia, P. (2020). 
+Endomaker, a new algorithm for fully automatic extraction of cranial endocasts and the calculation of their volumes. American Journal of Physical Anthropology.
 }
 \author{
 Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano

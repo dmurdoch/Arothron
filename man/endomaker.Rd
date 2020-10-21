@@ -4,13 +4,30 @@
 \alias{endomaker}
 \title{endomaker}
 \usage{
-endomaker(mesh = NULL, path_in = NULL, param1_endo = 1, npovs = 50,
-  volume = TRUE, alpha_vol = 100, nVoxels = 1e+05, decmesh = 20000,
-  alpha_ext = 30, ncells = 50000, npovs_calse = 50,
-  param1_calse = 2, param1_ast = 1.3, decendo = 20000,
-  scalendo = 0.5, alpha_end = 100, mpovdist = 10, plot = FALSE,
-  colmesh = "orange", save = FALSE, outpath = tempdir(),
-  num.cores = NULL)
+endomaker(
+  mesh = NULL,
+  path_in = NULL,
+  param1_endo = 1,
+  npovs = 50,
+  volume = TRUE,
+  alpha_vol = 100,
+  nVoxels = 1e+05,
+  decmesh = 20000,
+  alpha_ext = 30,
+  ncells = 50000,
+  npovs_calse = 50,
+  param1_calse = 2,
+  param1_ast = 1.3,
+  decendo = 20000,
+  scalendo = 0.5,
+  alpha_end = 100,
+  mpovdist = 10,
+  plot = FALSE,
+  colmesh = "orange",
+  save = FALSE,
+  outpath = tempdir(),
+  num.cores = NULL
+)
 }
 \arguments{
 \item{mesh}{mesh3d: 3D model of the skull}
@@ -74,6 +91,10 @@ open3d()
 wire3d(sapendo$endocast,col="violet")
 ecv<-sapendo$volume
 }
+}
+\references{
+Profico, A., Buzi, C., Melchionna, M., Veneziano, A., & Raia, P. (2020). 
+Endomaker, a new algorithm for fully automatic extraction of cranial endocasts and the calculation of their volumes. American Journal of Physical Anthropology.
 }
 \author{
 Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano

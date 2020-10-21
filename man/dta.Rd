@@ -4,8 +4,18 @@
 \alias{dta}
 \title{dta}
 \usage{
-dta(RM_sample, mod_1, mod_2, pairs_1, pairs_2, DM_mesh_1, DM_mesh_2,
-  DM_set_1, DM_set_2, method = c("euclidean"))
+dta(
+  RM_sample,
+  mod_1,
+  mod_2,
+  pairs_1,
+  pairs_2,
+  DM_mesh_1,
+  DM_mesh_2,
+  DM_set_1,
+  DM_set_2,
+  method = c("euclidean")
+)
 }
 \arguments{
 \item{RM_sample}{3D array: 3D landmark configurations of the reference sample}
@@ -83,6 +93,10 @@ library(rgl)
 open3d()
 wire3d(AM_mesh,col="white")
 plot3D(AM_set,bbox=FALSE,add=TRUE)
+}
+\references{
+Profico, A., Buzi, C., Davis, C., Melchionna, M., Veneziano, A., Raia, P., & Manzi, G. (2019). 
+A new tool for digital alignment in Virtual Anthropology. The Anatomical Record, 302(7), 1104-1115.
 }
 \author{
 Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano

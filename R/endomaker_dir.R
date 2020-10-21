@@ -25,6 +25,8 @@
 #' @return endocasts mesh3d: list of meshes of the extracted endocasts
 #' @return volumes numeric: volumes of the endocasts expressed in cc
 #' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
+#' @references Profico, A., Buzi, C., Melchionna, M., Veneziano, A., & Raia, P. (2020). 
+#' Endomaker, a new algorithm for fully automatic extraction of cranial endocasts and the calculation of their volumes. American Journal of Physical Anthropology.
 #' @export
 
 endomaker_dir<-function(dir_path,param1_endo=1.5,npovs=50,

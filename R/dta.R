@@ -21,6 +21,8 @@
 #' @return tot_eucl numeric vector: euclidean distances between aligned and reference models (all DTAs)
 #' @return setarray 3D array: landmark configurations of the disarticulated model aligned on each item of the reference sample 
 #' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
+#' @references Profico, A., Buzi, C., Davis, C., Melchionna, M., Veneziano, A., Raia, P., & Manzi, G. (2019). 
+#' A new tool for digital alignment in Virtual Anthropology. The Anatomical Record, 302(7), 1104-1115.
 #' @examples
 #' ## Load and plot the disarticulated model of the Homo sapiens case study
 #' library(compositions)

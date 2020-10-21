@@ -3,9 +3,9 @@
 \name{twodviews}
 \alias{twodviews}
 \title{twodviews
-Calculates the PCscores of the 2Dcomp matrix.  an array in a list storing each element of the third dimension of the array (specimen) as element of the list}
+Combine and calculate the PCscores matrix from a list of different landmark configurations to be combined}
 \usage{
-twodviews(twodlist, scale = TRUE, vector = c(1:5))
+twodviews(twodlist, scale = TRUE, vector = NULL)
 }
 \arguments{
 \item{twodlist}{a list containing the landmark configurations of each anatomical view stored as separated lists}
@@ -23,22 +23,26 @@ Variance table of the explained variance by the PCs
 
 size vector containing the Centroid Size of each configuration
 
-mshapes a list containing the mean shape of each 2D configuration
+mshapes a list containing the mean shape of each landmark configuration
 
-dims number of landmarks of each 2D configuration
+dims number of landmarks of each configuration
+
+dimm dimension (2D or 3D) of each combined landmark configuration
 
 twodlist the list used as input
 }
 \description{
 twodviews
-Calculates the PCscores of the 2Dcomp matrix.  an array in a list storing each element of the third dimension of the array (specimen) as element of the list
+Combine and calculate the PCscores matrix from a list of different landmark configurations to be combined
 }
 \examples{
 library(Morpho)
 #load the 2D primate dataset
 data("Lset2D_list")
+length(Lset2D_list)
 #combine the 2D datasets and PCA
 combin2D<-twodviews(Lset2D_list,scale=TRUE,vector=c(1:5))
+combin2D$size
 #plot of the first two Principal Components
 plot(combin2D$PCscores)
 text(combin2D$PCscores,labels=rownames(combin2D$PCscores))
@@ -49,6 +53,10 @@ GPA_3D<-procSym(Lset3D_array)
 #plot of the first two Principal Components
 plot(GPA_3D$PCscores)
 text(GPA_3D$PCscores,labels=rownames(GPA_3D$PCscores))
+}
+\references{
+Profico, A., Piras, P., Buzi, C., Del Bove, A., Melchionna, M., Senczuk, G., ... & Manzi, G. (2019). 
+Seeing the wood through the trees. Combining shape information from different landmark configurations. Hystrix, 157-165.
 }
 \author{
 Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano

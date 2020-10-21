@@ -1,12 +1,15 @@
 #' twodvarshape 
-#' Calculates the shape variation associated to a value of PC scores associated to a specific 2D view
+#' Calculates the shape variation associated to a value of PC scores associated to a specific combined landmark configuration or view
 #' @param twodviews_ob object from twodviews()
 #' @param scores numeric: the values of the PC scores for which the visualization is called
 #' @param PC PC chosen
-#' @param view numeric: 2D set to be used for shape variation visualization
-#' @return mat matrix of 2D coordinates associated to the called shape variation
+#' @param view numeric: which landmark configuration will be used to build the shape variation 
+#' @return mat matrix of coordinates associated to the called shape variation
 #' @author Antonio Profico, Costantino Buzi, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
+#' @references Profico, A., Piras, P., Buzi, C., Del Bove, A., Melchionna, M., Senczuk, G., ... & Manzi, G. (2019). 
+#' Seeing the wood through the trees. Combining shape information from different landmark configurations. Hystrix, 157-165.
 #' @examples
+#' library(Arothron)
 #' #load the 2D primate dataset
 #' data("Lset2D_list")
 #' #combine the 2D datasets and PCA
@@ -19,19 +22,22 @@
 #' plot(max_PC1,asp=1)
 #' @export
 
-twodvarshape<-function(twodviews_ob,scores,PC,view){
-  
-  pos_pcs<-twodviews_ob$dims*2
-  if(view==1){
-    sel_pcs<-1:pos_pcs[view]}
-  if(view==(length(view))){
-    sel_pcs<-(sum(pos_pcs[1:(view-1)])+1): sum(pos_pcs[1:view])}
-  if(view!=1 &view!=(length(view))){
-    sel_pcs<-(sum(pos_pcs[1:(view-1)])+1):(sum(pos_pcs[1:(view-1)])+pos_pcs[view])
+twodvarshape<-function (twodviews_ob, scores, PC, view) 
+{
+  pos_pcs <- twodviews_ob$dims * twodviews_ob$dimm
+  if (view == 1) {
+    sel_pcs <- 1:pos_pcs[view]
   }
-  # mshape<-twodviews_ob$mshapes[[view]]*sqrt(twodviews_ob$dims[view]*2)
-  mshape<-twodviews_ob$mshapes[[view]]*sqrt(twodviews_ob$dims[view]*2)
-  PCs<-twodviews_ob$PCs[sel_pcs,PC]
-  mat<-showPC(scores,PCs,mshape)
+  if (view == (length(twodviews_ob$dims))) {
+    sel_pcs <- (sum(pos_pcs[1:(view - 1)]) + 1):sum(pos_pcs[1:view])
+  }
+  if (view != 1 & view != (length(view))) {
+    sel_pcs <- (sum(pos_pcs[1:(view - 1)]) + 1):(sum(pos_pcs[1:(view - 
+                                                                  1)]) + pos_pcs[view])
+  }
+  mshape <- twodviews_ob$mshapes[[view]] * sqrt(twodviews_ob$dims[view] * twodviews_ob$dimm[view])
+  PCs <- twodviews_ob$PCs[sel_pcs, PC]
+  mat <- showPC(scores, PCs, mshape)
   return(mat)
 }
+
