@@ -167,6 +167,5 @@ endomaker<-function (mesh = NULL, path_in = NULL, param1_endo = 1, npovs = 50,
     open3d()
     shade3d(endo_sur, col = colmesh)
   }
-  closeAllConnections()
   out <- list(endocast = endo_sur, volume = vol)
 }

@@ -1,7 +1,7 @@
 Package: Arothron
 Type: Package
 Title: Geometric Morphometric Methods and Virtual Anthropology Tools
-Version: 2.0.1
+Version: 2.0.2
 Author: Antonio Profico, Costantino Buzi, Silvia Castiglione, Marina Melchionna, Paolo Piras, Pasquale Raia, Alessio Veneziano
 Maintainer: Antonio Profico <antonio.profico@york.ac.uk>
 Description: Tools for geometric morphometric analysis. The package includes tools of virtual anthropology to align two not articulated parts belonging to the same specimen, to build virtual cavities as endocast (Profico et al, 2018 <doi:10.1002/ajpa.23493>).
@@ -17,6 +17,6 @@ Encoding: UTF-8
 LazyLoad: yes
 RoxygenNote: 7.1.1
 NeedsCompilation: no
-Packaged: 2020-10-21 11:46:35 UTC; anton
+Packaged: 2021-06-08 07:10:00 UTC; anton
 Repository: CRAN
-Date/Publication: 2020-10-21 20:50:13 UTC
+Date/Publication: 2021-06-08 11:50:05 UTC

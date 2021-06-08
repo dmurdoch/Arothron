@@ -1,6 +1,6 @@
-2daa17ec811d3ed851c621fa5681051a *DESCRIPTION
+ba6eb67bc618a251efc08679955a62c6 *DESCRIPTION
 47a317ee2d6d553ad66e8d16094bd781 *NAMESPACE
-15d12c2664a725dc2a7b2da575e2bba7 *R/Arothron.R
+6e3a3267168ead53571564abae9533a7 *R/Arothron.R
 ff2625432375614f8623398fb0e80324 *R/CScorreffect.R
 68f13182a6e3c997055cca97e0e5c18f *R/DM_base_sur.R
 d6c88137e67fb7d3c2626fb899fc62dd *R/DM_face_sur.R
@@ -20,7 +20,7 @@ d1fe220ba7f3085e10e7a5cc704736f0 *R/bary.mesh.R
 6a119ee25a8b8fa9c05fe5d47e2f4254 *R/dec.curve.R
 36fb889955964d68a83d19250e2810df *R/dta.R
 b16a799e113c28795e7e577b64510e78 *R/endo_set.R
-a0e906a6732f0780da1fa526065ac901 *R/endomaker.R
+e561a10ba937a8e8eece4637e34492ce *R/endomaker.R
 7cd103cba505b2d523e71191fd73b44e *R/endomaker_dir.R
 54cd3d2c0f64c41fd62f14ae283d3416 *R/export_amira.R
 9f36579906d611111d62a358dc367402 *R/export_amira.path.R
@@ -71,7 +71,7 @@ df77fcb20fe0708bd72c56ac1f0a7112 *data/malleus_bone.rda
 3d3fd6d122d0ac54b695e0bef61e4128 *data/sinus_set.rda
 b3ed65434bdb1188ff4d82d8f9d84cb3 *data/yoda_set.rda
 d0479ea576aeb8f86e1d248985e84b48 *data/yoda_sur.rda
-1bebf9cabde2d3a6ce91aaf430c4d283 *man/Arothron-package.Rd
+16ac8697b7ce0375aaa21071d1584e2e *man/Arothron-package.Rd
 684b521420d1db6b2838cb06869ba616 *man/CScorreffect.Rd
 07d59f2ae51a936ee59f8b5376c17eb0 *man/DM_base_sur.Rd
 3feff2c7493dee2fc7dc57a930d33d4a *man/DM_face_sur.Rd
