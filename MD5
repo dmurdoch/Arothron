@@ -1,5 +1,5 @@
-ba6eb67bc618a251efc08679955a62c6 *DESCRIPTION
-47a317ee2d6d553ad66e8d16094bd781 *NAMESPACE
+bd28766e6e83237169d7e8a08329ea57 *DESCRIPTION
+25c42cf70faa935f01fa047446e745ec *NAMESPACE
 6e3a3267168ead53571564abae9533a7 *R/Arothron.R
 ff2625432375614f8623398fb0e80324 *R/CScorreffect.R
 68f13182a6e3c997055cca97e0e5c18f *R/DM_base_sur.R
@@ -46,7 +46,7 @@ fbf83ed673072b75f0884aed8b78a3bf *R/repmat.R
 5af0b27f58d16e3f35307b22c698a3f6 *R/sinus_set.R
 d88842147976f0af9d8d1bd1b230f48a *R/spherical.flipping.R
 19a81be10a43f50cb1c1fea591c7fda9 *R/trasf.mesh.R
-f97e7748784e6135b57e173ad1cf4054 *R/twodvarshape.R
+2c0ed70c288cf4aa38a4fdf5b4dce54e *R/twodvarshape.R
 10ab6b1d688635bb98183e47930d7bfc *R/twodviews.R
 bf840c71febfe22b237ba2c96ee09d81 *R/volendo.R
 1c2874b9ab1a45c70817937113a5f432 *R/yoda_set.R

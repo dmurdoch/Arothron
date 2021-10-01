@@ -37,7 +37,7 @@ twodvarshape<-function (twodviews_ob, scores, PC, view)
   }
   mshape <- twodviews_ob$mshapes[[view]] * sqrt(twodviews_ob$dims[view] * twodviews_ob$dimm[view])
   PCs <- twodviews_ob$PCs[sel_pcs, PC]
-  mat <- showPC(scores, PCs, mshape)
+  mat <- restoreShapes(scores, PCs, mshape)
   return(mat)
 }
 
