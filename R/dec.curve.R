@@ -12,7 +12,7 @@
 #' require(rgl)
 #' curve_3D<-cbind(1:10,seq(1,5,length=10),rnorm(10,sd = 0.2))
 #' plot3D(curve_3D,bbox=FALSE)
-#' rgl.close()
+#' close3d()
 #' ## Create and plot the new 3D curve (with intermediate points)
 #' dec_curve_3D<-dec.curve(curve_3D, 2, plot = TRUE)
 #' @export
